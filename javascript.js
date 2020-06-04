@@ -81,6 +81,10 @@ action = setInterval(function(){
    hide("wrong");
    playing=false;
    document.getElementById("startreset").innerHTML="Start Game";
+    document.getElementById("startreset").innerHTML="Play again";
+   document.getElementById("startreset").onclick= function(){
+       location.reload();
+   }
   }
 }, 1000);
 }
